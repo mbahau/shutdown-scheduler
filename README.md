@@ -29,7 +29,13 @@ A tiny, no-fuss Windows app to **shut down, restart, or sleep your PC after a ti
 
 Windows 10 or 11. .NET Framework 4.x is already built in.
 
-## Getting started
+## Download
+
+**[⬇ Download ShutdownScheduler.exe](https://github.com/mbahau/shutdown-scheduler/releases/latest/download/ShutdownScheduler.exe)** (latest release). It's a single file with nothing to install: put it anywhere and double-click it.
+
+> **Note:** the app isn't code-signed, so Windows SmartScreen may say *"Windows protected your PC"* the first time. Click **More info** → **Run anyway**. If you'd rather not trust a downloaded `.exe`, build it yourself from the source (below). It takes one double-click.
+
+## Build it yourself
 
 1. Download or clone this repository.
 2. Double-click **`build.bat`**. This creates `ShutdownScheduler.exe` using the C# compiler included with Windows.

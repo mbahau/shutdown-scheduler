@@ -7,6 +7,11 @@ using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
 [assembly: System.Reflection.AssemblyTitle("Shutdown Scheduler")]
+[assembly: System.Reflection.AssemblyProduct("Shutdown Scheduler")]
+[assembly: System.Reflection.AssemblyDescription("Shut down, restart or sleep Windows after a timer")]
+[assembly: System.Reflection.AssemblyCopyright("Copyright (c) 2026 MD BAHAUDDIN - MIT License")]
+[assembly: System.Reflection.AssemblyVersion("1.0.0.0")]
+[assembly: System.Reflection.AssemblyFileVersion("1.0.0.0")]
 
 public class MainForm : Form
 {
